@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Girls Hostel</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <style>
+      /* Global Styles */
+      body {
+        scroll-behavior: smooth;
+        font-family: "Arial", sans-serif;
+      }
+      /* .bg {
+        background-image: url("Bg_poster.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+      } */
+
+      /* Navbar Styles */
+      .navbar {
+        background-color: #6c5ce7;
+      }
+
+      .navbar .navbar-heading {
+        font-size: 1.5rem; /* Adjust font size as needed */
+        color: white;
+        font-weight: bold;
+        margin: 0; /* Ensure no extra margin */
+        padding: 0px 200px;
+      }
+
+      .navbar .nav-link {
+        color: white !important;
+        font-weight: bold;
+      }
+      .navbar .nav-link:hover {
+        color: #ffeaa7 !important;
+      }
+
+      /* Hero Section */
+      .hero {
+        background-image: url("Bg_poster.jpg"); /* Replace with your image path */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+        padding: 150px 0;
+        text-align: center;
+        position: relative;
+      }
+      .hero h1 {
+        font-size: 4rem;
+        font-weight: bold;
+      }
+      .hero .btn-primary {
+        background-color: #fd79a8;
+        border: none;
+        padding: 15px 30px;
+        font-size: 1.2rem;
+      }
+      .hero .btn-primary:hover {
+        background-color: #d63031;
+        transition: 0.3s;
+      }
+
+      /* About Section */
+      .about-section {
+        padding: 60px 0;
+        background-color: #f1f2f6;
+      }
+      .about-section h2 {
+        color: #6c5ce7;
+        font-weight: bold;
+      }
+      .about-section img {
+        border-radius: 15px;
+        transition: transform 0.3s ease;
+      }
+      .about-section img:hover {
+        transform: scale(1.05);
+      }
+
+      /* Facilities Section */
+      .facilities-section {
+        background-color: #f8f9fa;
+        padding: 60px 0;
+      }
+      .facilities-section h2 {
+        color: #6c5ce7;
+      }
+      .facilities-section .card {
+        transition: transform 0.3s ease;
+      }
+      .facilities-section .card:hover {
+        transform: scale(1.05);
+      }
+      .facilities-section .card-title {
+        color: #fd79a8;
+        font-weight: bold;
+      }
+
+      /* Contact Section */
+      .footer {
+        background-color: #2d3436;
+        color: white;
+        padding: 40px 0;
+      }
+      .footer a {
+        color: #fd79a8;
+      }
+      .footer a:hover {
+        color: #ffeaa7;
+        text-decoration: none;
+      }
+
+      .contact-form {
+        background-color: #6c5ce7;
+        padding: 40px;
+        border-radius: 10px;
+        color: white;
+      }
+      .contact-form input,
+      .contact-form textarea {
+        background-color: #f1f2f6;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      .contact-form button {
+        background-color: #fd79a8;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1rem;
+      }
+      .contact-form button:hover {
+        background-color: #d63031;
+        transition: 0.3s;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container d-flex justify-content-between align-items-center">
+        <a class="navbar-brand" href="#">Girls Hostel</a>
+        <h1 class="navbar-heading text-center">Welcome to Girls Hostel</h1>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#facilities">Facilities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero bg">
+      <div class="container">
+        <!-- <h1>Welcome to Girls Hostel</h1> -->
+        
+        
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>About Us</h2>
+            <p>
+              Our girls hostel provides a safe, secure, and welcoming
+              environment for students and working professionals. We ensure a
+              comfortable stay with all necessary amenities, helping our
+              residents feel at home.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="https://t3.ftcdn.net/jpg/06/41/43/32/360_F_641433239_pACX3e2VvN6ZtGSAEIK65GLr8kbMZC32.jpg"
+              class="img-fluid"
+              alt="Hostel Image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section id="facilities" class="facilities-section">
+      <div class="container">
+        <h2 class="text-center">Our Facilities</h2>
+        <div class="row text-center mt-4">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">24/7 Security</h5>
+                <p class="card-text">
+                  Our hostel is equipped with 24/7 security to ensure the safety
+                  and well-being of our residents.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Clean Rooms</h5>
+                <p class="card-text">
+                  We provide clean and well-maintained rooms with daily
+                  housekeeping services.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Wi-Fi Connectivity</h5>
+                <p class="card-text">
+                  High-speed internet connectivity is available throughout the
+                  hostel premises.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="contact" class="footer">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-6">
+            <h4>Contact Us</h4>
+            <p>Email: info@girlshostel.com | Phone: +91 1234567890</p>
+          </div>
+          <div class="col-md-6">
+            <form class="contact-form">
+              <h5>Send us a Message</h5>
+              <input type="text" placeholder="Your Name" required />
+              <input type="email" placeholder="Your Email" required />
+              <textarea rows="4" placeholder="Your Message" required></textarea>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+        <p class="text-center">
+          &copy; 2024 Girls Hostel. All Rights Reserved.
+        </p>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
